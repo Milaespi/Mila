@@ -1,0 +1,68 @@
+.admin-home {
+  font-family: 'Roboto', sans-serif; /* Cambia la fuente */
+  color: #333;  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://thefoodtech.com/wp-content/uploads/2021/03/Sabritas-innova-con-sabores-Switch.jpg'); /* Fondo de imagen de papitas */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para ver un poco el fondo */
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  height: 300px;
+  display: grid;
+  place-items: center;
+}
+
+.welcomeAdmin {
+  color: #333; /* Cambia a un color más oscuro para resaltar sobre el fondo */
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.user-info, .lista-codigo {
+  margin-bottom: 2rem;
+}
+
+#btnEditarah, #btnHomeAdmin {
+  margin-top: 15px;
+  padding: 5px 15px; /* Padding simplificado */
+  border-radius: 10px;
+  background-color: blue; /* Color de fondo azul para los botones */
+  color: white;
+  border: none; /* Remueve el borde */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+#btnEditarah:hover, #btnHomeAdmin:hover {
+  background-color: darkblue; /* Color azul más oscuro en hover */
+}
+
+#textoAdmin {
+  font-style: italic;
+}
+
+#textoEditar {
+  margin: 100px 0 0 0; /* Ajusta el margen superior y elimina márgenes laterales */
+  padding: 1rem; /* Agrega padding para espaciar el texto */
+  border-radius: 10px;
+  display: flex;
+  background-color: rgb(95, 82, 82);
+  color: white;
+}
